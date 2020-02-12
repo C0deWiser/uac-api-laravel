@@ -21,6 +21,6 @@ class ApiServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         /** @var Router $router */
         $router = $this->app['router'];
-        $router->aliasMiddleware('auth.token_introspection', TokenIntrospection::class);
+        $router->aliasMiddleware('auth.token_introspection', TokenIntrospectionMiddleware::class);
     }
 }

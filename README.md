@@ -5,7 +5,7 @@
 
 ## Состав
 
-Пакет содержит единственный middleware - TokenIntrospection.
+Пакет содержит единственный middleware - TokenIntrospectionMiddleware.
 
 ## Использование
 
@@ -29,7 +29,7 @@ Route::group(['middleware' => ['auth.token_introspection']], function() {
 protected $middlewareGroups = [
     'web' => [
         // ...
-        \Codewiser\UAC\Laravel\TokenIntrospection:class,
+        \Codewiser\UAC\Laravel\TokenIntrospectionMiddleware::class,
     ],
 ];
 ```

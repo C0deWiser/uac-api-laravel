@@ -8,7 +8,7 @@ use Closure;
 use Codewiser\UAC\Laravel\Exceptions\UacApiException;
 use League\OAuth2\Client\Token\AccessToken;
 
-class TokenIntrospection
+class TokenIntrospectionMiddleware
 {
     /** @var \Illuminate\Http\Request $request */
     protected $request;

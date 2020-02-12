@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Codewiser\\UAC\\Laravel\\ServiceProvider"
+        "Codewiser\\UAC\\Laravel\\ApiServiceProvider"
       ]
     }
   }
